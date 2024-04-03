@@ -28,7 +28,7 @@ public class D01P01 {
 	}
 	// Method to display book info
 	public void showBook() {
-		System.out.println("Book title: " + bookTitle + "Price" + bookPrice);
+		System.out.println("Book title:" + bookTitle + "Price" + bookPrice);
 	}
 	public static void main(String [] args) {
 		D01P01 book = D01P01.createBook("JAVA", 350.00);
