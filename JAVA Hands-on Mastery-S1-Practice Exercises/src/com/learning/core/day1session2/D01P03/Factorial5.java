@@ -16,7 +16,6 @@ public class Factorial5 {
 	        for (int i = 1; i <= number; i++) {
 	            factorial *= i;
 	        }
-
 	        // Print the factorial value
 	        System.out.println("The factorial of " + number + " is: " + factorial);
 
