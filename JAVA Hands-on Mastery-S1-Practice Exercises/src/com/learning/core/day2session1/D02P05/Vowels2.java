@@ -1,6 +1,6 @@
 package com.learning.core.day2session1.D02P05;
 import java.util.Scanner;
-public class Vowels {
+public class Vowels2 {
 	
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
