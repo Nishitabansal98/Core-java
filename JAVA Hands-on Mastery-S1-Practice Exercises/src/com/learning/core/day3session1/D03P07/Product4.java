@@ -20,8 +20,8 @@ class Productt {
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
-        if (!(obj instanceof Product)) return false;
-        Product other = (Product) obj;
+        if (!(obj instanceof Produc)) return false;
+        Produc other = (Produc) obj;
         return productId == other.productId;
     }
 }
@@ -29,26 +29,26 @@ class Productt {
 public class Product4 {
     public static void main(String[] args) {
         // Predefined information of four products
-        HashSet<Product> productsSet = new HashSet<>();
-        productsSet.add(new Product(1, "Product 1"));
-        productsSet.add(new Product(2, "Product 2"));
-        productsSet.add(new Product(3, "Product 3"));
-        productsSet.add(new Product(4, "Product 4"));
+        HashSet<Produc> productsSet = new HashSet<>();
+        productsSet.add(new Produc(1, "Product 1"));
+        productsSet.add(new Produc(2, "Product 2"));
+        productsSet.add(new Produc(3, "Product 3"));
+        productsSet.add(new Produc(4, "Product 4"));
 
         // Removing a product by ProductId
         removeProduct(productsSet, 3);
 
         // Printing the products set after removal
         System.out.println("Products set after removal:");
-        for (Product product : productsSet) {
+        for (Produc product : productsSet) {
             System.out.println("ProductId: " + product.productId + " - ProductName: " + product.productName);
         }
     }
 
     // Function to remove a product by ProductId
-    static void removeProduct(HashSet<Product> productsSet, int productId) {
-        Product productToRemove = null;
-        for (Product product : productsSet) {
+    static void removeProduct(HashSet<Produc> productsSet, int productId) {
+        Produc productToRemove = null;
+        for (Produc product : productsSet) {
             if (product.productId == productId) {
                 productToRemove = product;
                 break;
