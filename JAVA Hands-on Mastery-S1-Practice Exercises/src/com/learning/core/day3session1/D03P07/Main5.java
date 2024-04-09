@@ -50,6 +50,21 @@ class Person implements Comparable<Person> {
     public int compareTo(Person other) {
         return Integer.compare(this.id, other.id);
     }
+
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getSalary() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
 
 public class Main5 {
