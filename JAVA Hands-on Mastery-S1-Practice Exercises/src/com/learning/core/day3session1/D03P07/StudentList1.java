@@ -3,7 +3,7 @@ package com.learning.core.day3session1.D03P07;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class StudentList {
+public class StudentList1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> studentList = new ArrayList<>();

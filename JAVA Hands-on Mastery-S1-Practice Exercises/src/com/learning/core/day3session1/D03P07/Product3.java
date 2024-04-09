@@ -31,7 +31,7 @@ public class Product3 {
         productSet.add(new Product("P004", "Maruti Alto"));
 
         // Searching for a particular product
-        String searchProductId = "P002";
+        String searchProductId = "P003";
         boolean found = false;
 
         for (Product product : productSet) {
