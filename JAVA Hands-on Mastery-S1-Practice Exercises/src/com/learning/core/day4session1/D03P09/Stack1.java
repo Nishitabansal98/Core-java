@@ -1,11 +1,11 @@
 package com.learning.core.day4session1.D03P09;
 
-public class Stack {
+public class Stack1 {
     private int maxSize;
     private String[] stackArray;
     private int top;
 
-    public Stack(int size) {
+    public Stack1(int size) {
         maxSize = size;
         stackArray = new String[maxSize];
         top = -1;
@@ -42,7 +42,7 @@ public class Stack {
     }
 
     public static void main(String[] args) {
-        Stack stack = new Stack(5);
+        Stack1 stack = new Stack1(5);
         stack.push("4");
         stack.push("hello");
         stack.push("world");
