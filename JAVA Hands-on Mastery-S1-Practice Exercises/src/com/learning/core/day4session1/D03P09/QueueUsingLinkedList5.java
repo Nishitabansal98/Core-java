@@ -26,7 +26,6 @@ public class QueueUsingLinkedList5 {
         rear.next = newNode;
         rear = newNode;
     }
-
     public int dequeue() {
         if (front == null) {
             System.out.println("Queue is empty. Cannot dequeue element.");
