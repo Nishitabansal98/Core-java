@@ -2,14 +2,14 @@ package com.learning.core.day3session2.D03P08;
 
 import java.util.*;
 
-class Book implements Comparable<Book> {
+class Book4 implements Comparable<Book> {
     private int bookId;
     private String title;
     private double price;
     private double weight;
     private String author;
 
-    public Book(int bookId, String title, double price, double weight, String author) {
+    public Book4(int bookId, String title, double price, double weight, String author) {
         this.bookId = bookId;
         this.title = title;
         this.price = price;
@@ -51,7 +51,7 @@ class Book implements Comparable<Book> {
     }
 }
 
-public class gjbmbkj {
+public class Book4 {
     public static void main(String[] args) {
         // Create TreeSet to store book details sorted by author names
         Set<Book> bookSet = new TreeSet<>();
