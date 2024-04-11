@@ -2,7 +2,7 @@ package com.learning.core.day3session2.D03P08;
 import java.util.HashMap;
 import java.util.Map;
 
-public class PhoneBook {
+public class PhoneBook1 {
     public static void main(String[] args) {
         // Create a HashMap to store phone book details
         Map<String, String> phoneBook = new HashMap<>();
